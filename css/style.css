@@ -9,6 +9,7 @@ body{
 ul{
     list-style: none;
 }
+ /*Aqui empieza el header*/
 header {
     display: flex;
     padding: 5vh;
@@ -21,20 +22,40 @@ header {
 #logo {
     color: #125E17;
     text-decoration: none;
-    font-size: larger;
+    font-size: 3vh;
     font-weight: bold;
 }
-nav a {
+.nav-link {
     font-size: medium;
     text-decoration: none;
     margin: 0 10px;
     font-weight: bolder;
     color: black;
 }
-nav a:hover {
+.nav-link:hover {
     color: #125E17;
 
 }
+.btn-cv {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2vh;
+    border-radius: 25px;
+    background-color: #125E17;
+    border: gray;
+}
+.btn-cv:hover {
+  border: none;
+  background-color: #125E17;
+  color: white;
+  padding: 1.5vh;
+  border-radius: 25px;
+  cursor: cell;
+  transition: all 0.3s ease; 
+}
+ /*Aqui acaba el header*/
+ 
 .hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
