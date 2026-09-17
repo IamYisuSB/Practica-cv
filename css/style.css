@@ -1,0 +1,55 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    display: flex;
+    margin-top: 5vh;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+#logo {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+nav a {
+    font-size: medium;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bolder;
+    color: black;
+}
+nav a:hover {
+    color: red;
+
+}
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 7%;
+    align-items: center;
+}
+.hero img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    justify-self: center;
+}
+.tecnologias {
+    display: flex;
+    flex-wrap: wrap;      
+    justify-content: center;
+    gap: 1rem;
+}
+.tecnologias h2 {
+    width: 100%;           
+    text-align: center;  
+}
+
+.fa-brands { 
+    font-size: 40px;
+    padding-right: 1rem;
+}
