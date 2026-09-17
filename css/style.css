@@ -75,15 +75,15 @@ header {
 }
 .tecnologias {
     display: flex;
-    flex-wrap: wrap;      
-    justify-content: center;
-    gap: 1rem;
-    margin: 5rem;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 1.5rem;         
+    margin: 3rem 0;
 }
 .tecnologias h2 {
     font-weight: bold;
     font-size: 2rem;          
-    text-align: center;  
+    text-align: center;
 }
 
 .fa-brands { 
@@ -95,6 +95,9 @@ header {
     color: orange;
 }
 
+.fa-css3-alt {
+    color: blue;
+}
 .fa-bootstrap {
     color: blueviolet;
 }
@@ -105,6 +108,10 @@ header {
 
 .fa-react {
     color: rgb(3, 182, 182);
+}
+
+.fa-sass {
+    color: rgb(225, 74, 99);
 }
 
 .bloque2 {
