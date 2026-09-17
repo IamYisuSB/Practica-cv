@@ -54,8 +54,9 @@ header {
   cursor: cell;
   transition: all 0.3s ease; 
 }
- /*Aqui acaba el header*/
+/*Aqui acaba el header*/
  
+/*Aqui empieza el hero*/
 .hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -80,7 +81,8 @@ header {
     margin: 5rem;
 }
 .tecnologias h2 {
-    width: 100%;           
+    font-weight: bold;
+    font-size: 2rem;          
     text-align: center;  
 }
 
