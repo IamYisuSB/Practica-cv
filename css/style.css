@@ -11,26 +11,33 @@ ul{
 }
  /*Aqui empieza el header*/
 header {
+    position: relative;
     display: flex;
-    padding: 5vh;
-    align-content: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
     background-color: rgb(242, 239, 236);
     border-bottom: 1px solid gray;
 }
 #logo {
     color: #125E17;
     text-decoration: none;
-    font-size: 3vh;
+    font-size: 1.5rem;
     font-weight: bold;
 }
+nav{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5rem;
+}
 .nav-link {
-    font-size: medium;
+    font-size: 1rem;
     text-decoration: none;
-    margin: 0 10px;
-    font-weight: bolder;
+    font-weight: bold;
     color: black;
+    transition: color 0.3s ease;
 }
 .nav-link:hover {
     color: #125E17;
@@ -40,19 +47,15 @@ header {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    padding: 2vh;
+    padding: 0.75rem 1.5rem;
     border-radius: 25px;
     background-color: #125E17;
-    border: gray;
+    transition: all 0.3s ease;
 }
 .btn-cv:hover {
-  border: none;
-  background-color: #125E17;
-  color: white;
-  padding: 1.5vh;
-  border-radius: 25px;
-  cursor: cell;
-  transition: all 0.3s ease; 
+    background-color: #0e4912; 
+    cursor: pointer;        
+    transform: translateY(-2px);
 }
 /*Aqui acaba el header*/
  
@@ -72,6 +75,11 @@ header {
 }
 .hero h1{
     color: #125E17;
+    padding-bottom: 1.2vh;
+}
+.hero p{
+    max-width: 65ch;
+    padding-top: 1vh;
 }
 .tecnologias {
     display: flex;
