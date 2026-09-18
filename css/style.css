@@ -24,6 +24,7 @@ header {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
+    
 }
 nav{
     position: absolute;
@@ -58,6 +59,7 @@ nav{
     border-radius: 50%;
     object-fit: cover;
     justify-self: center;
+    border: 2px solid #125E17;
 }
 .hero h1{
     color: #125E17;
@@ -119,6 +121,7 @@ nav{
     flex: 1;
     text-align: center;
     text-decoration: none;
+    margin-bottom: 3rem;
 }
 .experiencia h2, 
 .estudios h2  {
