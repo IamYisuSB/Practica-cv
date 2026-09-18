@@ -141,6 +141,7 @@ nav{
 }
 footer{
     background-color: rgb(242, 239, 236);
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
