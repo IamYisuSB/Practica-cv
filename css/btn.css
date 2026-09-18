@@ -1,0 +1,33 @@
+.btn-cv {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    background-color: #125E17;
+    transition: all 0.3s ease;
+}
+.btn-cv:hover {
+    background-color: #0e4912; 
+    cursor: pointer;        
+    transform: translateY(-2px);
+}
+
+.btn2 {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    background-color: #125E17;
+    transition: all 0.3s ease;
+    width: fit-content
+}
+.btn2:hover {
+    background-color: #0e4912; 
+    cursor: pointer;        
+    transform: translateY(-2px);
+}
+.btn2 a{
+    margin: 30px;
+}

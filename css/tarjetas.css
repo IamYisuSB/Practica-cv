@@ -1,0 +1,31 @@
+#cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+
+}
+.jobs-card{
+    border: 1px solid rgba(0, 0, 0, 0.366);
+    border-radius: 20px;
+    padding: 1rem;
+}
+.jobs-card img {
+    width: 100%;
+    border-radius: 20px;
+}
+.jobs-card a{
+    display: inline-block;
+    margin-top: 20px;
+}
+.type-job{
+    width: fit-content;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: rgb(154, 217, 156);
+    padding: 0.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+.jobs-card p.info{
+    margin-top: 2rem;
+}

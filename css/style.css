@@ -43,20 +43,6 @@ nav{
     color: #125E17;
 
 }
-.btn-cv {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 0.75rem 1.5rem;
-    border-radius: 25px;
-    background-color: #125E17;
-    transition: all 0.3s ease;
-}
-.btn-cv:hover {
-    background-color: #0e4912; 
-    cursor: pointer;        
-    transform: translateY(-2px);
-}
 /*Aqui acaba el header*/
  
 /*Aqui empieza el hero*/
@@ -78,7 +64,7 @@ nav{
     padding-bottom: 1.2vh;
 }
 .hero p{
-    max-width: 65ch;
+    max-width: 70ch;
     padding-top: 1vh;
 }
 .tecnologias {
@@ -143,9 +129,9 @@ footer{
     background-color: rgb(242, 239, 236);
     margin-top: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
-    gap: 20px;
+    gap: 200px;
 }
 footer img{
     width: 200px;
@@ -167,4 +153,8 @@ footer a{
 }
 footer a:hover{
     color: #125E17;
+}
+.ver-p {
+    display: block;
+    margin: 2rem auto;
 }
