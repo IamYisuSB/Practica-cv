@@ -49,8 +49,9 @@
     border-radius: 20px;
 }
 .jobs-card a{
-    display: inline-block;
-    margin-top: 20px;
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0;
 }
 .type-job{
     width: fit-content;
@@ -63,4 +64,7 @@
 }
 .jobs-card p.info{
     margin-top: 2rem;
+}
+.btn2 {
+    align-items: center;
 }
